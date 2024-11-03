@@ -7,76 +7,76 @@ A1:
 	system("cls");
 	int user_input = 0;
 	int user_input_check = 0;
-	printf("ÇëÑ¡ÔñÒÔÏÂ¹¦ÄÜ£º");
-	printf("\n1.¼ÆËãÆ÷\n");
-	printf("2.¼ÇÊÂ±¾\n");
-	printf("3.»­Í¼\n");
-	printf("4.Ô¶³Ì×ÀÃæÁ¬½Ó\n");
-	printf("5.ÃüÁîÌáÊ¾·û\n");
-	printf("6.×¢²á±í±à¼­Æ÷\n");
-	printf("7.Windows·şÎñ\n");
-	printf("8.×é²ßÂÔ\n");
-	printf("9.WindowsÉè±¸¹ÜÀíÆ÷\n");
-	printf("10.·µ»ØÖ÷²Ëµ¥\n");
-	printf("\nÇëÑ¡Ôñ£º");
+	printf("è¯·é€‰æ‹©ä»¥ä¸‹åŠŸèƒ½ï¼š");
+	printf("\n1.è®¡ç®—å™¨\n");
+	printf("2.è®°äº‹æœ¬\n");
+	printf("3.ç”»å›¾\n");
+	printf("4.è¿œç¨‹æ¡Œé¢è¿æ¥\n");
+	printf("5.å‘½ä»¤æç¤ºç¬¦\n");
+	printf("6.æ³¨å†Œè¡¨ç¼–è¾‘å™¨\n");
+	printf("7.WindowsæœåŠ¡\n");
+	printf("8.ç»„ç­–ç•¥\n");
+	printf("9.Windowsè®¾å¤‡ç®¡ç†å™¨\n");
+	printf("10.è¿”å›ä¸»èœå•\n");
+	printf("\nè¯·é€‰æ‹©ï¼š");
 	user_input_check = scanf("%d", &user_input);
 	if (user_input_check == 0){
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-10µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-10çš„åºå·ï¼\n\a");
 		Sleep(1500);
 		return 1;
 	}
 	switch (user_input){
 	case 1:
 		system("start calc.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 2:
 		system("start notepad.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 3:
 		system("start mspaint.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 4:
 		system("start mstsc.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 5:
 		system("start cmd.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 6:
 		system("start regedit.exe");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 7:
 		system("start services.msc");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 8:
 		system("start gpedit.msc");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
 	case 9:
 		system("start devmgmt.msc");
-		printf("ÇëµÈ´ı½ø³ÌÏìÓ¦...\n");
+		printf("è¯·ç­‰å¾…è¿›ç¨‹å“åº”...\n");
 		Sleep(2000);
 		goto A1;
 		break;
@@ -84,7 +84,7 @@ A1:
 		return 1;
 		break;
 	default:
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-10µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-10çš„åºå·ï¼\n\a");
 		Sleep(1000);
 		goto A1;
 		system("cls");
@@ -97,16 +97,16 @@ A2:
 	system("cls");
 	int user_input = 0;
 	int user_input_check = 0;
-	printf("ÇëÑ¡ÔñÒÔÏÂ¹¦ÄÜ\n");
-	printf("\n1.¼¤»îWindows£¨KMS£©\n");
-	printf("\n2.½ûÓÃWindows×Ô¶¯¸üĞÂ\n");
-	printf("\n3.Çå³ıÏµÍ³À¬»ø\n");
-	printf("\n4.½ûÓÃWindows·À»ğÇ½\n");
-	printf("\n5.·µ»ØÖ÷²Ëµ¥\n");
-	printf("\nÇëÑ¡Ôñ£º");
+	printf("è¯·é€‰æ‹©ä»¥ä¸‹åŠŸèƒ½\n");
+	printf("\n1.æ¿€æ´»Windowsï¼ˆKMSï¼‰\n");
+	printf("\n2.ç¦ç”¨Windowsè‡ªåŠ¨æ›´æ–°\n");
+	printf("\n3.æ¸…é™¤ç³»ç»Ÿåƒåœ¾\n");
+	printf("\n4.ç¦ç”¨Windowsé˜²ç«å¢™\n");
+	printf("\n5.è¿”å›ä¸»èœå•\n");
+	printf("\nè¯·é€‰æ‹©ï¼š");
 	user_input_check = scanf("%d",&user_input);
 	if (user_input_check == 0){
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-5µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-5çš„åºå·ï¼\n\a");
 		Sleep(1500);
 		return 1;
 	}
@@ -115,35 +115,35 @@ A2:
 		system("cls");
 		int winver = 0;
 		int shutdown = 0;
-		printf("\nÇëÑ¡ÔñWindows°æ±¾£º");
-		printf("\n1.Windows7×¨Òµ°æ");
-		printf("\n2.Windows10/11×¨Òµ°æ");
-		printf("ÇëÊäÈë£º");
+		printf("\nè¯·é€‰æ‹©Windowsç‰ˆæœ¬ï¼š");
+		printf("\n1.Windows7ä¸“ä¸šç‰ˆ");
+		printf("\n2.Windows10/11ä¸“ä¸šç‰ˆ");
+		printf("è¯·è¾“å…¥ï¼š");
 		if (winver == 1){
-			printf("\nÄ¿±êÏµÍ³£ºWindows7×¨Òµ°æ\n");
-			printf("Ö´ĞĞÖĞ...ÈôÊ§°ÜÇëÊ¹ÓÃ¹ÜÀíÔ±Éí·İÔËĞĞ£¡\n");
+			printf("\nç›®æ ‡ç³»ç»Ÿï¼šWindows7ä¸“ä¸šç‰ˆ\n");
+			printf("æ‰§è¡Œä¸­...è‹¥å¤±è´¥è¯·ä½¿ç”¨ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼\n");
 			system("slmgr.vbs /upk");
 			system("slmgr /ipk 6K2KY-BFH24-PJW6W-9GK29-TMPWP");
 			system("slmgr/skms kms.loli.best");
 			system("slmgr /ato");
-			printf("\nÊÇ·ñÖØÆôÏµÍ³£¿£¨1.ÊÇ 0.·ñ£©£º\n");
+			printf("\næ˜¯å¦é‡å¯ç³»ç»Ÿï¼Ÿï¼ˆ1.æ˜¯ 0.å¦ï¼‰ï¼š\n");
 			scanf("%d",&shutdown);
 			if (shutdown == 1){
-				printf("ÏµÍ³½«ÔÚ1·ÖÖÓÄÚÖØÆô£¬Çë¾¡¿ì±£´æÎÄ¼ş£¡\n\a");
+				printf("ç³»ç»Ÿå°†åœ¨1åˆ†é’Ÿå†…é‡å¯ï¼Œè¯·å°½å¿«ä¿å­˜æ–‡ä»¶ï¼\n\a");
 				system("shutdown.exe -r -t 60");
 				Sleep(60000);
 			}
 			if (winver == 2){
-				printf("\nÄ¿±êÏµÍ³£ºWindows10/11×¨Òµ°æ\n");
-				printf("Ö´ĞĞÖĞ...ÈôÊ§°ÜÇëÊ¹ÓÃ¹ÜÀíÔ±Éí·İÔËĞĞ£¡\n");
+				printf("\nç›®æ ‡ç³»ç»Ÿï¼šWindows10/11ä¸“ä¸šç‰ˆ\n");
+				printf("æ‰§è¡Œä¸­...è‹¥å¤±è´¥è¯·ä½¿ç”¨ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼\n");
 				system("slmgr.vbs /upk");
 				system("slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX");
 				system("slmgr/skms kms.loli.best");
 				system("slmgr /ato");
-				printf("\nÊÇ·ñÖØÆôÏµÍ³£¿£¨1.ÊÇ 0.·ñ£©£º\n");
+				printf("\næ˜¯å¦é‡å¯ç³»ç»Ÿï¼Ÿï¼ˆ1.æ˜¯ 0.å¦ï¼‰ï¼š\n");
 				scanf("%d", &shutdown);
 				if (shutdown == 1){
-					printf("ÏµÍ³½«ÔÚ1·ÖÖÓÄÚÖØÆô£¬Çë¾¡¿ì±£´æÎÄ¼ş£¡\n\a");
+					printf("ç³»ç»Ÿå°†åœ¨1åˆ†é’Ÿå†…é‡å¯ï¼Œè¯·å°½å¿«ä¿å­˜æ–‡ä»¶ï¼\n\a");
 					system("shutdown.exe -r -t 60");
 					Sleep(60000);
 				}
@@ -156,32 +156,32 @@ A2:
 		}
 		break;
 	case 2:
-		printf("\nÕıÔÚÖ´ĞĞÖĞ...ÈôÌáÊ¾Ê§°ÜÇëÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ£¡\n");
+		printf("\næ­£åœ¨æ‰§è¡Œä¸­...è‹¥æç¤ºå¤±è´¥è¯·ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼\n");
 		Sleep(1000);
 		system("net stop \"windows update\"");
 		system("net stop usosvc");
 		system("sc.exe config wuauserv start= disabled");
 		Sleep(1000);
-		printf("\n²Ù×÷³É¹¦Íê³É£¡\n");
+		printf("\næ“ä½œæˆåŠŸå®Œæˆï¼\n");
 		Sleep(2000);
 		setbuf(stdin, NULL);
 		goto A2;
 		break;
 	case 3:
-		printf("\n×¢Òâ£¡ÔÚÇåÀí¹ı³ÌÖĞÇë±ÜÃâÔËĞĞÆäËû³ÌĞò\n");
+		printf("\næ³¨æ„ï¼åœ¨æ¸…ç†è¿‡ç¨‹ä¸­è¯·é¿å…è¿è¡Œå…¶ä»–ç¨‹åº\n");
 		system("cleanmgr.exe");
 		system("rmdir /s /q C:\\Windows\\Temp");
 		system("rmdir /s /q C:\\Windows\\SoftwareDistribution");
 		system("rmdir /s /q C:\\Windows\\Logs");
-		printf("²Ù×÷³É¹¦Íê³É£¡\n");
+		printf("æ“ä½œæˆåŠŸå®Œæˆï¼\n");
 		Sleep(2000);
 		setbuf(stdin, NULL);
 		goto A2;
 		break;
 	case 4:
-		printf("\n×¢Òâ£¡´Ë¹¦ÄÜĞèÒªÊ¹ÓÃ¹ÜÀíÔ±Éí·İÔËĞĞ£¡\n");
+		printf("\næ³¨æ„ï¼æ­¤åŠŸèƒ½éœ€è¦ä½¿ç”¨ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼\n");
 		system("netsh advfirewall set allprofiles state off && exit");
-		printf("²Ù×÷³É¹¦Íê³É!\n");
+		printf("æ“ä½œæˆåŠŸå®Œæˆ!\n");
 		Sleep(1000);
 		setbuf(stdin, NULL);
 		goto A2;
@@ -190,7 +190,7 @@ A2:
 		return 1;
 		break;
 	default:
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-5µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-5çš„åºå·ï¼\n\a");
 		Sleep(1500);
 		goto A2;
 		break;
@@ -201,36 +201,36 @@ int reset_network(void){
 	system("cls");
 	int user_input = 0; 
 	int user_input_check = 0;
-	printf("\n¾¯¸æ£¡´Ë¹¦ÄÜ½«»áÖØÖÃÍøÂçÊÊÅäÆ÷ÒÔ¼°Çå³ıDNS»º´æ£¬Çë½÷É÷Ê¹ÓÃ´Ë¹¦ÄÜ£¡\n\a");
-	printf("\n×¢Òâ£¡´Ë¹¦ÄÜĞèÒª¹ÜÀíÔ±È¨ÏŞ²ÅÄÜÊ¹ÓÃ£¬ÈôÎ´Ê¹ÓÃ¹ÜÀíÔ±Éí·İÔËĞĞÇë¹Ø±ÕºóÖØĞÂÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ£¡\n");
-	printf("\n²Ù×÷È·ÈÏ£¨1.Ö´ĞĞ²Ù×÷ 0.ÖÕÖ¹²Ù×÷£©£º");
+	printf("\nè­¦å‘Šï¼æ­¤åŠŸèƒ½å°†ä¼šé‡ç½®ç½‘ç»œé€‚é…å™¨ä»¥åŠæ¸…é™¤DNSç¼“å­˜ï¼Œè¯·è°¨æ…ä½¿ç”¨æ­¤åŠŸèƒ½ï¼\n\a");
+	printf("\næ³¨æ„ï¼æ­¤åŠŸèƒ½éœ€è¦ç®¡ç†å‘˜æƒé™æ‰èƒ½ä½¿ç”¨ï¼Œè‹¥æœªä½¿ç”¨ç®¡ç†å‘˜èº«ä»½è¿è¡Œè¯·å…³é—­åé‡æ–°ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼\n");
+	printf("\næ“ä½œç¡®è®¤ï¼ˆ1.æ‰§è¡Œæ“ä½œ 0.ç»ˆæ­¢æ“ä½œï¼‰ï¼š");
 	user_input_check = scanf("%d", &user_input);
 	if (user_input_check == 0){
-		printf("\n·Ç·¨ÊäÈë£¡ÇëÊäÈë1»ò0À´È·¶¨²Ù×÷£¡\n\a");
+		printf("\néæ³•è¾“å…¥ï¼è¯·è¾“å…¥1æˆ–0æ¥ç¡®å®šæ“ä½œï¼\n\a");
 		Sleep(1500);
 		return 1;
 	}
 	switch (user_input){
 	case 1:
-		printf("\nÕıÔÚÖ´ĞĞÖĞ...ÇëÎğ¹Ø±Õ³ÌĞò£¡\n");
-		printf("»ñÈ¡ÍøÂçÊÊÅäÆ÷ĞÅÏ¢ÖĞ...\n");
+		printf("\næ­£åœ¨æ‰§è¡Œä¸­...è¯·å‹¿å…³é—­ç¨‹åºï¼\n");
+		printf("è·å–ç½‘ç»œé€‚é…å™¨ä¿¡æ¯ä¸­...\n");
 		system("ipconfig /all");
 		Sleep(1000);
-		printf("\nÖØÖÃÖĞ...\n");
+		printf("\né‡ç½®ä¸­...\n");
 		system("ipconfig /flushdns");
 		system("netsh winsock reset");
 		system("ipconfig /release");
 		system("ipconfig /renew");
-		printf("\n\n²Ù×÷³É¹¦Íê³É£¡½¨ÒéÖØÆô¼ÆËã»ú\n\n\n");
+		printf("\n\næ“ä½œæˆåŠŸå®Œæˆï¼å»ºè®®é‡å¯è®¡ç®—æœº\n\n\n");
 		system("pause");
 		system("cls");
 		return 1;
 	case 0:
-		printf("\n²Ù×÷±»ÓÃ»§È¡Ïû£¡\n");
+		printf("\næ“ä½œè¢«ç”¨æˆ·å–æ¶ˆï¼\n");
 		Sleep(1000);
 		return 1;
 	default:
-		printf("\n·Ç·¨ÊäÈë£¡ÇëÊäÈë1»ò0À´È·¶¨²Ù×÷£¡\n\a");
+		printf("\néæ³•è¾“å…¥ï¼è¯·è¾“å…¥1æˆ–0æ¥ç¡®å®šæ“ä½œï¼\n\a");
 		return 1;
 		break;
 	}
@@ -240,17 +240,17 @@ A3:
 	system("cls");
 	int user_input = 0;
 	int user_input_check = 0;
-	printf("¾¯¸æ£¡´Ë¹¦ÄÜÎª¸ßÎ£¹¦ÄÜ£¬ÒòÎªÊ¹ÓÃ²»µ±ËùÔì³ÉµÄÒ»ÇĞËğÊ§ÓÉÓÃ»§³Ğµ££¡\n");
-	printf("\nÇëÑ¡ÔñÒÔÏÂ¹¦ÄÜ£º\n");
-	printf("\n 1.ÖØÆôWindowsµ½Recovery»·¾³\n");
-	printf("\n 2.Ç¿ÖÆÖØÆôWindows×ÊÔ´¹ÜÀíÆ÷\n");
-	printf("\n 3.Æô¶¯Diskpart´ÅÅÌ·ÖÇø¹¤¾ß\n");
-	printf("\n 4.×Ô¶¯Ìí¼ÓÓÃ»§ÖÁWindows\n");
-	printf("\n 5.·µ»ØÖ÷²Ëµ¥\n");
-	printf("\nÇëÊäÈë£º");
+	printf("è­¦å‘Šï¼æ­¤åŠŸèƒ½ä¸ºé«˜å±åŠŸèƒ½ï¼Œå› ä¸ºä½¿ç”¨ä¸å½“æ‰€é€ æˆçš„ä¸€åˆ‡æŸå¤±ç”±ç”¨æˆ·æ‰¿æ‹…ï¼\n");
+	printf("\nè¯·é€‰æ‹©ä»¥ä¸‹åŠŸèƒ½ï¼š\n");
+	printf("\n 1.é‡å¯Windowsåˆ°Recoveryç¯å¢ƒ\n");
+	printf("\n 2.å¼ºåˆ¶é‡å¯Windowsèµ„æºç®¡ç†å™¨\n");
+	printf("\n 3.å¯åŠ¨Diskpartç£ç›˜åˆ†åŒºå·¥å…·\n");
+	printf("\n 4.è‡ªåŠ¨æ·»åŠ ç”¨æˆ·è‡³Windows\n");
+	printf("\n 5.è¿”å›ä¸»èœå•\n");
+	printf("\nè¯·è¾“å…¥ï¼š");
 	user_input_check = scanf("%d", &user_input);
 	if (user_input_check == 0){
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-5µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-5çš„åºå·ï¼\n\a");
 		Sleep(1500);
 		system("cls");
 		setbuf(stdin,NULL);
@@ -260,41 +260,41 @@ A3:
 	case 1:
 		system("cls");
 		int reject = 0;
-		printf("\nÏµÍ³½«ÔÚ30sºó×Ô¶¯ÖØÆôµ½Windows»Ö¸´»·¾³£¬Çë¼°Ê±±£´æÊı¾İ!\a\n");
-		printf("ÈôÒªÖÕÖ¹¹Ø»ú½ø³ÌÇëÊäÈë0£¬ÈôÒª¼ÌĞøÖØÆô½ø³ÌÇë²»ÒªÊäÈëÈÎºÎÊı¾İ£¡\n");
+		printf("\nç³»ç»Ÿå°†åœ¨30såè‡ªåŠ¨é‡å¯åˆ°Windowsæ¢å¤ç¯å¢ƒï¼Œè¯·åŠæ—¶ä¿å­˜æ•°æ®!\a\n");
+		printf("è‹¥è¦ç»ˆæ­¢å…³æœºè¿›ç¨‹è¯·è¾“å…¥0ï¼Œè‹¥è¦ç»§ç»­é‡å¯è¿›ç¨‹è¯·ä¸è¦è¾“å…¥ä»»ä½•æ•°æ®ï¼\n");
 		system("shutdown.exe -r -o -t 30");
-		printf("\nÇëÊäÈë£º");
+		printf("\nè¯·è¾“å…¥ï¼š");
 		scanf("%d", &reject);
 		if (reject == 0){
-			printf("ÖÕÖ¹ÃüÁîÒÑ·¢³ö...\n");
+			printf("ç»ˆæ­¢å‘½ä»¤å·²å‘å‡º...\n");
 			system("shutdown.exe -a");
 			Sleep(2000);
 			goto A3;
 		}
 		break;
 	case 2:
-		printf("\n×¢Òâ£¡ÔÚ³ÌĞòÖ´ĞĞÆÚ¼ä¿ÉÄÜ×ÀÃæ»áÏûÊ§ÕâÊôÓÚÕı³£ÏÖÏó£¬ÇëÎğ¹Ø±Õ³ÌĞò£¡\n\a");
+		printf("\næ³¨æ„ï¼åœ¨ç¨‹åºæ‰§è¡ŒæœŸé—´å¯èƒ½æ¡Œé¢ä¼šæ¶ˆå¤±è¿™å±äºæ­£å¸¸ç°è±¡ï¼Œè¯·å‹¿å…³é—­ç¨‹åºï¼\n\a");
 		Sleep(1000);
 		system("taskkill.exe /f /im explorer.exe");
 		Sleep(500);
 		system("taskkill.exe /f /im dwm.exe ");
 		Sleep(500);
 		system("cmd.exe /c start c:\\windows\\explorer.exe");
-		printf("×ÊÔ´¹ÜÀíÆ÷ÖØÆô³É¹¦£¡\n");
+		printf("èµ„æºç®¡ç†å™¨é‡å¯æˆåŠŸï¼\n");
 		Sleep(1000);
 		goto A3;
 		break;
 	case 3:
 		system("cls");
-		printf("\nÊı¾İÎŞ¼Û£¬½÷É÷²Ù×÷£¡\n");
+		printf("\næ•°æ®æ— ä»·ï¼Œè°¨æ…æ“ä½œï¼\n");
 		system("diskpart.exe");
 		goto A3;
 		break;
 	case 4:
-		printf("\n¾¯¸æ£¡Ê¹ÓÃ´Ë¹¦ÄÜ¿ÉÄÜµ¼ÖÂËûÈËÔÚÎ´¾­ÊÚÈ¨µÄÇé¿öÏÂ·ÃÎÊ¼ÆËã»ú£¡\n\a");
+		printf("\nè­¦å‘Šï¼ä½¿ç”¨æ­¤åŠŸèƒ½å¯èƒ½å¯¼è‡´ä»–äººåœ¨æœªç»æˆæƒçš„æƒ…å†µä¸‹è®¿é—®è®¡ç®—æœºï¼\n\a");
 		Sleep(1000);
 		system("net user new_user 123456 /add");
-		printf("\nÌí¼Ó³É¹¦£¡ÓÃ»§Ãû£ºnet_user ÃÜÂë£º123456\n");
+		printf("\næ·»åŠ æˆåŠŸï¼ç”¨æˆ·åï¼šnet_user å¯†ç ï¼š123456\n");
 		system("pause");
 		goto A3;
 		break;
@@ -309,7 +309,7 @@ A3:
 }
 void system_info(void){
 	system("echo off && systeminfo >> d:\\system_info.log");
-	printf("\nÎÄ¼şÒÑ±£´æÖÁD:\\system_info.logÖĞ£¡\n\n");
+	printf("\næ–‡ä»¶å·²ä¿å­˜è‡³D:\\system_info.logä¸­ï¼\n\n");
 	system("pause");
 	system("cls");
 }
@@ -321,19 +321,19 @@ int main(void){
 	struct time* timeinfo;
 	time(&rawtime);
 	timeinfo = localtime(&rawtime);
-	printf("»¶Ó­Ê¹ÓÃWindows¹¤¾ßÏä Made By Qizhou 2024.11.3\n");
-	printf("µ±Ç°ÏµÍ³Ê±ÖÓ£º%s\n", asctime(timeinfo));
+	printf("æ¬¢è¿ä½¿ç”¨Windowså·¥å…·ç®± Made By Qizhou 2024.11.3\n");
+	printf("å½“å‰ç³»ç»Ÿæ—¶é’Ÿï¼š%s\n", asctime(timeinfo));
 A:
-	printf("ÇëÑ¡ÔñÄãÒªÖ´ĞĞµÄ¹¦ÄÜ");
-	printf("\n\n1.µ÷ÓÃÏµÍ³Èí¼ş\n");
-	printf("\n2.WindowsÊµÓÃ¹¦ÄÜ\n");
-	printf("\n3.WindowsÍøÂçÖØÖÃ\n");
-	printf("\n4.¸ß¼¶¹¦ÄÜ£¨ĞÂÊÖÉ÷ÓÃ£¡£©\n");
-	printf("\n5.¼ì²âÏµÍ³ĞÅÏ¢²¢±£´æ\n");
-	printf("\nÇëÑ¡Ôñ£º");
+	printf("è¯·é€‰æ‹©ä½ è¦æ‰§è¡Œçš„åŠŸèƒ½");
+	printf("\n\n1.è°ƒç”¨ç³»ç»Ÿè½¯ä»¶\n");
+	printf("\n2.Windowså®ç”¨åŠŸèƒ½\n");
+	printf("\n3.Windowsç½‘ç»œé‡ç½®\n");
+	printf("\n4.é«˜çº§åŠŸèƒ½ï¼ˆæ–°æ‰‹æ…ç”¨ï¼ï¼‰\n");
+	printf("\n5.æ£€æµ‹ç³»ç»Ÿä¿¡æ¯å¹¶ä¿å­˜\n");
+	printf("\nè¯·é€‰æ‹©ï¼š");
 	user_input_check = scanf("%d", &user_choice);
 	if (user_input_check == 0){
-		printf("·Ç·¨ÊäÈë£¡ÇëÊäÈë1-5µÄĞòºÅ£¡\n\a");
+		printf("éæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-5çš„åºå·ï¼\n\a");
 		Sleep(1500);
 		setbuf(stdin, NULL);
 		system("cls");
@@ -377,7 +377,7 @@ A:
 			goto A;
 			break;
 	default:
-		printf("\n·Ç·¨ÊäÈë£¡ÇëÊäÈë1-5µÄĞòºÅ£¡\n\a");
+		printf("\néæ³•è¾“å…¥ï¼è¯·è¾“å…¥1-5çš„åºå·ï¼\n\a");
 		system("pause");
 		setbuf(stdin,NULL);
 		system("cls");
