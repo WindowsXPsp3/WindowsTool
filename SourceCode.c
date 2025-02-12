@@ -219,6 +219,7 @@ int reset_network(void){
 		printf("\n重置中...\n");
 		system("ipconfig /flushdns");
 		system("netsh winsock reset");
+		system("netsh int ip reset");
 		system("ipconfig /release");
 		system("ipconfig /renew");
 		printf("\n\n操作成功完成！建议重启计算机\n\n\n");
@@ -294,7 +295,7 @@ A3:
 		printf("\n警告！使用此功能可能导致他人在未经授权的情况下访问计算机！\n\a");
 		Sleep(1000);
 		system("net user new_user 123456 /add");
-		printf("\n添加成功！用户名：net_user 密码：123456\n");
+		printf("\n添加成功！用户名：new_user 密码：123456\n");
 		system("pause");
 		goto A3;
 		break;
